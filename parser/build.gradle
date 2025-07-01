@@ -1,0 +1,40 @@
+//plugins {
+//    id("java")
+//    id("idea")
+//}
+plugins {
+    id 'java'
+    id 'idea'
+}
+
+group = "red.head.deer"
+repositories {
+    mavenCentral()
+}
+
+//kotlinVersion = "2.1.0"
+
+//repositories {
+//    mavenCentral()
+//    maven {
+//        url = url("https://repo1.maven.org/maven2/")
+//    }
+//}
+
+dependencies {
+    implementation("org.junit.jupiter:junit-jupiter-api:5.8.1")
+    runtimeOnly("org.junit.jupiter:junit-jupiter-engine:5.8.1")
+    implementation("org.jetbrains.kotlin:kotlin-gradle-plugin:2.1.0")
+    implementation("org.springframework.boot:spring-boot:2.7.8")
+    implementation("org.springframework.boot:spring-boot-autoconfigure:2.7.8")
+    implementation("org.springframework:spring-web:2.7.8")
+    implementation("org.springframework:spring-context:2.7.8")
+
+}
+
+//bootJar.enabled=true
+jar.enabled=false
+
+//springBoot {
+//    mainClass.set("red.head.deer.ParserKt")
+//}

@@ -1,0 +1,23 @@
+{
+  "testName": "Simple test",
+  "testParameters": [
+    {
+      "string": {
+        "key": "TestKey",
+        "value": "TestValue"
+      }
+    },
+    {
+      "string": {
+        "key": "TestString",
+        "value": "Test"
+      }
+    },
+    {
+      "int": {
+        "key": "TestIntKey",
+        "value": 13
+      }
+    }
+  ]
+}
